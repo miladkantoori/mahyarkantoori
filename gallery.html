@@ -26,6 +26,7 @@
 		<div class="cd-slider-nav">
 			<nav class="navbar">
 				<div class="tm-navbar-bg">
+				<p id="demo"></p>
 					<a class="navbar-brand text-uppercase" href="#"><i class="fa fa-picture-o tm-brand-icon" style="color:white;"></i>گالری من</a>
 					<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar" style="color:white;">
 						&#9776;
@@ -55,10 +56,6 @@
 				</div>
 			</nav>
 		</div>
-		<script>
-			var currenthash = window.location.hash;
-			document.getElementById(currenthash).click();
-		</script>
 		<ul class="cd-hero-slider">
 			<!-- Page 1 Gallery One -->
 			<li class="selected">
@@ -678,5 +675,10 @@
 	<script src="js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
 	<script src="js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
 	<script src="js/scripts.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
+	<script>
+		var currenthash = window.location.hash;
+		document.getElementById(currenthash).click();
+		document.getElementById("demo").innerHTML = currenthash;
+	</script>
 </body><!-- This template has been downloaded from Webrubik.com -->
 </html>

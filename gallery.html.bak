@@ -55,6 +55,10 @@
 				</div>
 			</nav>
 		</div>
+		<script>
+			var currenthash = window.location.hash;
+			document.getElementById(currenthash).click();
+		</script>
 		<ul class="cd-hero-slider">
 			<!-- Page 1 Gallery One -->
 			<li class="selected">
@@ -674,9 +678,5 @@
 	<script src="js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
 	<script src="js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
 	<script src="js/scripts.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
-	<script>
-		var currenthash = window.location.hash;
-		document.getElementById(currenthash).click();
-	</script>
 </body><!-- This template has been downloaded from Webrubik.com -->
 </html>
