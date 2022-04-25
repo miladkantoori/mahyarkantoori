@@ -163,6 +163,27 @@ button:focus { outline: none; }
   background-color: #eaa319;
 }
 
+.cd-slider-nav .nav-item:nth-of-type(4).selected .nav-link,
+.cd-slider-nav .nav-item:nth-of-type(4) .nav-link:hover,
+.cd-slider-nav .nav-item:nth-of-type(4) .nav-link:focus {
+
+  background-color: #AC7D88;
+}
+
+.cd-slider-nav .nav-item:nth-of-type(5).selected .nav-link,
+.cd-slider-nav .nav-item:nth-of-type(5) .nav-link:hover,
+.cd-slider-nav .nav-item:nth-of-type(5) .nav-link:focus {
+
+  background-color: #4E944F;
+}
+
+.cd-slider-nav .nav-item:nth-of-type(6).selected .nav-link,
+.cd-slider-nav .nav-item:nth-of-type(6) .nav-link:hover,
+.cd-slider-nav .nav-item:nth-of-type(6) .nav-link:focus {
+
+  background-color: #E8630A;
+}
+
 .tm-bg-white-translucent { background-color: rgba(255,255,255,0.8); }
 .tm-bg-white-translucent p { color: black; }
 .tm-textbox {
