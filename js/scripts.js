@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	var currenthash = window.location.hash;
+	document.getElementById(currenthash).click();
     $(".dropdown").click(function(){
         $(".menu").toggleClass("showMenu");
         $(".menu > li").click(function(){
