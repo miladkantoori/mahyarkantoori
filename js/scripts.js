@@ -119,9 +119,11 @@ $(document).ready(function(){
         // Write current year in copyright text.
         $(".tm-copyright-year").text(new Date().getFullYear());
 		
-		// Get herf link from adress bar.
+		// Get herf link from adressbar & hidden loading.
 		var currenthash = window.location.hash;
 		document.getElementById(currenthash).click();
+		var link = document.getElementById('loading');
+		link.style.visibility = 'hidden';
 
     });
 
