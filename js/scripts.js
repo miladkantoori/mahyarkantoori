@@ -1,6 +1,4 @@
 $(document).ready(function(){
-	var currenthash = window.location.hash;
-	document.getElementById(currenthash).click();
     $(".dropdown").click(function(){
         $(".menu").toggleClass("showMenu");
         $(".menu > li").click(function(){
@@ -120,6 +118,10 @@ $(document).ready(function(){
 
         // Write current year in copyright text.
         $(".tm-copyright-year").text(new Date().getFullYear());
+		
+		// Get herf link from adress bar.
+		var currenthash = window.location.hash;
+		document.getElementById(currenthash).click();
 
     });
 
