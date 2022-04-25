@@ -69,6 +69,30 @@ $(document).ready(function(){
             gallery:{enabled:true}
         });
 
+        /* Gallery Four pop up
+         -----------------------------------------*/
+        $('.gallery-four').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery:{enabled:true}
+        });
+
+        /* Gallery Five pop up
+         -----------------------------------------*/
+        $('.gallery-five').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery:{enabled:true}
+        });
+
+        /* Gallery Six pop up
+         -----------------------------------------*/
+        $('.gallery-six').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery:{enabled:true}
+        });
+
         /* Collapse menu after click
          -----------------------------------------*/
         $('#tmNavbar a').click(function(){
