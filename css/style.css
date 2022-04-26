@@ -17,15 +17,6 @@ body {
   direction: rtl;
 }
 
-.loading {
-	display: block;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-    top: 50%;
-    left: 50%;
-}
-
 ul { padding: 0; margin: 0; }
 figure { margin: 0; }
 p:last-child { margin-bottom: 0; }
@@ -670,4 +661,15 @@ figure.effect-sadie:hover p {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tm-2-col-textbox-2 { margin-right: 15px; }
   #google-map { height: 520px; }
+}
+
+#loading {
+	z-index: 3000;
+	display: flex;
+	position: fixed;
+	position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
