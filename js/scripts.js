@@ -122,8 +122,6 @@ $(document).ready(function(){
 		// Get herf link from adressbar & hidden loading.
 		var currenthash = window.location.hash;
 		document.getElementById(currenthash).click();
-		// var link = document.getElementById('loading');
-		// link.style.visibility = 'hidden';
 		$(".loading").hide();
 
     });
