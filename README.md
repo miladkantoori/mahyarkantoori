@@ -1,2 +1,2 @@
 # mahyarkantoori
-https://miladkantoori.github.io/mahyarkantoori/
+https://mahyar-kantoori.ir/
