@@ -10,6 +10,10 @@ $(document).ready(function(){
     function adjustHeightOfPage(pageNo) {
 
         var pageContentHeight = 0;
+		
+		let VText = '#g' + pageNo;
+		let text = document.getElementById(VText).innerText;
+		document.getElementById("TSelect").innerText = text;
 
         var pageType = $('div[data-page-no="' + pageNo + '"]').data("page-type");
 
