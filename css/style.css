@@ -184,6 +184,20 @@ button:focus { outline: none; }
   background-color: #E8630A;
 }
 
+.cd-slider-nav .nav-item:nth-of-type(7).selected .nav-link,
+.cd-slider-nav .nav-item:nth-of-type(7) .nav-link:hover,
+.cd-slider-nav .nav-item:nth-of-type(7) .nav-link:focus {
+
+  background-color: #40DFEF;
+}
+
+.cd-slider-nav .nav-item:nth-of-type(8).selected .nav-link,
+.cd-slider-nav .nav-item:nth-of-type(8) .nav-link:hover,
+.cd-slider-nav .nav-item:nth-of-type(8) .nav-link:focus {
+
+  background-color: #FCD900;
+}
+
 .tm-bg-white-translucent { background-color: rgba(255,255,255,0.8); }
 .tm-bg-white-translucent p { color: black; }
 .tm-textbox {
