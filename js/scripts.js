@@ -49,10 +49,50 @@ $(document).ready(function(){
 
         adjustHeightOfPage(1); // Adjust page height
 
-        /* Gallery pop up
+        /* Gallery One pop up
          -----------------------------------------*/
-        $('.gallery-popup').magnificPopup({
+        $('.gallery-one').magnificPopup({
             delegate: 'a', // child items selector, by clicking on it popup will open
+            type: 'image',
+            gallery:{enabled:true}
+        });
+
+        /* Gallery Two pop up
+         -----------------------------------------*/
+        $('.gallery-two').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery:{enabled:true}
+        });
+
+        /* Gallery Three pop up
+         -----------------------------------------*/
+        $('.gallery-three').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery:{enabled:true}
+        });
+
+        /* Gallery Four pop up
+         -----------------------------------------*/
+        $('.gallery-four').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery:{enabled:true}
+        });
+
+        /* Gallery Five pop up
+         -----------------------------------------*/
+        $('.gallery-five').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery:{enabled:true}
+        });
+
+        /* Gallery Six pop up
+         -----------------------------------------*/
+        $('.gallery-six').magnificPopup({
+            delegate: 'a',
             type: 'image',
             gallery:{enabled:true}
         });
