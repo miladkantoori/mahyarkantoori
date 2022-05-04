@@ -745,3 +745,22 @@ video {
   width: 100%;
   height: auto;
 }
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#FF6363;
+	color:#FFF;
+	border-radius:50px;
+	font-size:40px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	z-index:9000;
+}
+
+.my-float{
+	margin-top:10px;
+}
