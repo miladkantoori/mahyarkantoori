@@ -750,8 +750,8 @@ video {
 	position:fixed;
 	width:60px;
 	height:60px;
-	bottom:40px;
-	right:40px;
+	bottom:20px;
+	right:20px;
 	background-color:#FF6363;
 	color:#FFF;
 	border-radius:50px;
