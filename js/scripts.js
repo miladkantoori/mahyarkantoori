@@ -123,10 +123,10 @@ $(document).ready(function(){
         // Write current year in copyright text.
         $(".tm-copyright-year").text(new Date().getFullYear());
 		
-		// Get herf link from adressbar & hidden loading.
+		// hidden loading & Get herf link from adressbar.
+		$(".loading").hide();
 		var currenthash = window.location.hash;
 		document.getElementById(currenthash).click();
-		$(".loading").hide();
 
     });
 
