@@ -1,0 +1,59 @@
+CACHE MANIFEST
+# v1.0 : 01-03-2022
+ 
+CACHE:
+# pages
+index.html
+gaz.html
+ 
+# styles & scripts
+css/bootstrap.min.css
+css/font-awesome.min.css	
+css/hero-slider-style.css
+css/leaflet.css
+css/magnific-popup.css
+css/main.css
+css/reset.min.css
+css/style.css
+js/bootstrap.min.js
+js/hero-slider-main.js
+js/html5shiv.min.js
+js/jquery-1.11.3.min.js
+js/jquery.magnific-popup.min.js	
+js/respond.min.js
+js/script.js
+js/scripts.js
+js/tether.min.js
+ 
+# images
+favicon.ico
+pics/Logo.png
+images/about-img.jpg	
+images/home-img.png
+images/img-1.jpg
+images/img-2.jpg
+images/img-3.jpg
+images/img-4.jpg
+images/img-5.jpg
+images/img-6.jpg
+images/img-7.jpg
+images/Logo.png
+images/profile-img.png	
+images/video.mp4
+
+# fonts
+fonts/fontawesome-webfont.eot
+fonts/fontawesome-webfont.svg
+fonts/fontawesome-webfont.ttf
+fonts/fontawesome-webfont.woff	
+fonts/fontawesome-webfont.woff2	
+fonts/FontAwesome.otf
+fonts/Vazir-Regular.ttf
+fonts/Vazir.eot
+fonts/Vazir.ttf
+fonts/Vazir.woff
+fonts/Vazir.woff2
+ 
+NETWORK:
+gallery.html
+ 
