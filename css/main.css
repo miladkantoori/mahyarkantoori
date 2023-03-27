@@ -17,6 +17,13 @@
     line-height: 1.5;
 }
 
+li {
+    margin-right: 25px;
+    color: #9299ab;
+    font-size: 14px;
+    font-weight:400;
+}
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
