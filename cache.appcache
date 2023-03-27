@@ -4,7 +4,6 @@ CACHE MANIFEST
 CACHE:
 # pages
 index.html
-gaz.html
  
 # styles & scripts
 css/bootstrap.min.css
