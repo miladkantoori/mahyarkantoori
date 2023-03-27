@@ -152,6 +152,10 @@ header .follow a:hover{
     display: none;
 }
 
+#lang{
+    font-size: 3rem;
+}
+
 .cursor-1{
     position: absolute;
     top:0; left:0;
