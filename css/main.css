@@ -190,6 +190,7 @@ header .follow a:hover{
     align-items: center;
     flex-wrap: wrap;
     gap:1.5rem;
+    margin-top: 50px;
 }
 
 .home .image{
