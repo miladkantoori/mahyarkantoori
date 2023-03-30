@@ -201,6 +201,11 @@ header .follow a:hover{
     flex:1 1 40rem;
 }
 
+.mImage{
+    width:100%;
+    height: 100%;
+}
+
 .home .image img{
     width:100%;
     height: 100%;
