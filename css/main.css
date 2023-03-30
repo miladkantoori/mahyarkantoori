@@ -29,6 +29,10 @@ body{
     padding-left: 30rem;
 }
 
+.left{
+    direction: ltr;
+}
+
 section{
     padding:1rem 5%;
     
